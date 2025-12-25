@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KENGALO CATTLES Limited</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(black, #002b5c);
+        color: white;
+      }
+
+      /* NAVBAR */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(5px);
+        padding: 15px 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+      nav a:hover {
+        color: #00aaff;
+      }
+
+      header {
+        text-align: center;
+        padding: 120px 20px 60px;
+      }
+      header img {
+        width: 160px;
+        animation: float 4s ease-in-out infinite;
+      }
+      h1 {
+        font-size: 45px;
+        margin-top: 10px;
+      }
+      .motto {
+        opacity: 0.8;
+        font-style: italic;
+        margin-top: 8px;
+      }
+
+      section {
+        padding: 70px 20px;
+        max-width: 1100px;
+        margin: auto;
+        animation: fade 0.8s ease;
+      }
+      h2 {
+        font-size: 32px;
+        border-left: 5px solid #00aaff;
+        padding-left: 12px;
+        margin-bottom: 20px;
+      }
+
+      /* SERVICES */
+      .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .service-box {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 20px;
+        border-radius: 12px;
+        transition: 0.3s;
+      }
+      .service-box:hover {
+        transform: translateY(-5px);
+      }
+
+      /* GALLERY SCROLLER */
+      .gallery-wrapper {
+        white-space: nowrap;
+        overflow-x: auto;
+        margin-top: 20px;
+        padding-bottom: 10px;
+      }
+      .gallery-wrapper img {
+        width: 260px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 10px;
+        transition: 0.3s;
+      }
+      .gallery-wrapper img:hover {
+        transform: scale(1.06);
+      }
+
+      /* TESTIMONIALS */
+      .testimonial-box {
+        background: rgba(255, 255, 255, 0.07);
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+      }
+      .testimonial-box:hover {
+        transform: translateY(-5px);
+      }
+
+      /* WHATSAPP */
+      .whatsapp-btn {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background: #25d366;
+        padding: 15px 25px;
+        border-radius: 50px;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 0 10px black;
+      }
+.facebook-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: blue;
+  padding: 10px 15px;
+  border-radius: 40px;
+  color: white;
+  font-size: xx-large;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 20px black;
+
+}
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home">
+      <img src="logo.png" alt="logo" />
+      <h1>KENGALO Cattles Limited</h1>
+      <div class="motto">
+        “Premium Cattle. Trusted Quality. Serving You Since 2008.
+       <h2> DEALERS OF CATTLES BASICALLY FOR MEAT CONSUMPTION</h2>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        KENGALO Cattles Limited provides high-quality cattle that meet national
+        agricultural standards. We specialize in healthy livestock, professional
+        care, and transparent cattle supply nationwide.
+      </p>
+   <h3>   <p>We sell both in parts ranging from 
+        <ul>
+          <li> head</li>
+          <li>laps</li>
+          <li>tail</li>
+          <li>legs</li>
+          <li>large intestine (towel)</li>
+          <li>small intestine </li>
+          <li>liver</l1>
+        </ul>
+      </p></h3>
+      <br>
+      <br>
+      <br>
+      <h3>WE SELL THEIR BYE PRODUCTS RANGING FROM<h3>
+          <ul>
+            <li>Bones</li>
+            <li>blood</li>
+            <li>horns</li>
+            <li>cattle dung (manure)</li>
+            <br>
+            <br>
+            <br>
+            <h3>located at Ugwuorie Market Opposite St Michaels Catholic Church Amakwa Ekwusigo LGA Ozubulu Anambra State</h3> <h3><p>For more information click the whatsapp button and Dont forget to follow us on facebook to our  View our page in facebook via the facebook button<p></h3>
+          
+
+      </ul>
+    </h3>
+      
+      
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h2>Cattle Gallery</h2>
+      <div class="gallery-wrapper">
+        <img src="cow 2.jpg"/>
+        <img src="cow 3.jpg" />
+        <img src="cow 4.jpg" />
+        <img src="cow.jpg" />
+        <img src="head of a cow.jpg" />
+        <img src="laps of a cow.jpg" />
+        <img src="leg.jpg" />
+        <img src="towel.jpg" />
+        <img src="small.jpg" />
+        <img src="cow 2.jpg" />
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service-box">Healthy cattle sales</div>
+        <div class="service-box">Bulk supply for businesses</div>
+        <div class="service-box">Nationwide livestock delivery</div>
+        <div class="service-box">Breed selection support</div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <h2>Client Testimonials</h2>
+
+      <div class="testimonial-box">
+        “Best cattle supplier in Nigeria. Very reliable.” — Ahmed Musa
+      </div>
+
+      <div class="testimonial-box">
+        “Strong, healthy livestock. Delivery was quick.” — Grace Udo
+      </div>
+
+      <div class="testimonial-box">
+        “Fair prices and excellent service.” — Ibrahim Sadiq
+      </div>
+    </section>
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/2349162345884" class="whatsapp-btn"> WhatsApp Us </a>
+    <p><a href="https://www.facebook.com/share/1DekqejcL1/" class="facebook-btn"><h1>facebook</h1></a></p>
+
+   
+  </body>
+</html>
