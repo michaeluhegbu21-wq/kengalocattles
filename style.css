@@ -152,3 +152,20 @@ h2 {
     transform: translateY(0);
   }
 }
+button{
+
+background-color: blue;
+font-size: large;
+border-radius: 3rem;
+backdrop-filter: blur(12px);
+size: 3rem;
+}
+button:hover{
+  transition: ease-in-out;
+  transform: scale(1.05);
+}
+a{
+  color: black;
+  font-size: x-large;
+  font-weight: bolder;
+}
